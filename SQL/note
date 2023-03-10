@@ -1,0 +1,7 @@
+* null doesn't count as number
+
+* NOT IN (select from)
+
+select name Customers
+from Customers
+where id NOT IN (select customerId from Orders) 

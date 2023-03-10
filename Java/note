@@ -1,0 +1,5 @@
+* length vs length()
+
+length: size of an array
+length(): characters in String
+
